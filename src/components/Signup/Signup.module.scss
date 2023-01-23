@@ -1,0 +1,117 @@
+.SignupContainer {
+  background: #fcf7f3;
+  border-radius: 5px;
+  box-shadow: 0px 16px 30px -5px rgba(0, 0, 0, 1);
+  display: flex;
+  height: 500px;
+  margin: 200px auto;
+  max-height: 500px;
+  text-align: center;
+  width: 50%;
+
+  .SignupForm {
+    padding: 50px 0 30px;
+    width: 50%;
+  }
+
+  .FormHeaderCopy {
+    color: #703265;
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+
+  .Input {
+    margin-bottom: 15px;
+
+    .InputArrowContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .Valid,
+    .Invalid {
+      // margin-left: 3px;
+      position: absolute;
+      right: 18%;
+    }
+
+    .Valid {
+      color: limegreen;
+    }
+
+    .Invalid {
+      color: red;
+    }
+  }
+
+  input {
+    background: transparent;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    padding: 10px 10px;
+    width: 70%;
+  }
+
+  input::placeholder {
+    color: #b2b2b2;
+    font-size: 14px;
+  }
+
+  .Instructions {
+    background: #703265;
+    border-radius: 0.4rem;
+    bottom: -10px;
+    color: #fff;
+    font-size: 0.78rem;
+    margin: 0 auto;
+    opacity: 95%;
+    padding: 0.25rem;
+    position: relative;
+    text-align: left;
+    width: 70%;
+  }
+
+  .Instructions > svg {
+    margin-right: 0.25rem;
+  }
+
+  .Offscreen {
+    left: -9999px;
+    position: absolute;
+  }
+
+  .Error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .SignupButton {
+    background: linear-gradient(to bottom, #1e5799 0%, #b44e8d 0%, #703265 100%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin: 25px 0 8px;
+    padding: 10px 0;
+    width: 70%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .ExistingAccountCopy {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 18px;
+
+    a {
+      display: inline;
+      padding-left: 5px;
+      text-decoration: none;
+    }
+  }
+}

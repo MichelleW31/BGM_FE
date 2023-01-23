@@ -1,0 +1,33 @@
+.ImageContainer {
+  align-items: center;
+  background: url('../../assets/bgm_bank.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: 50%;
+}
+
+.ImageWrapper hr {
+  border: 1px solid #fff;
+  width: 60%;
+}
+
+.HeaderCopy {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 20px 0;
+  padding: 0 79px;
+  text-align: center;
+}
+
+.BodyCopy {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 15px;
+}
