@@ -5,11 +5,11 @@ THE BGM BANK project is a mock login/sign up form made using React, React Routin
 ## INSTALLATION
 
 ```bash
-git clone git@github.com:MichelleW31/BGMBank.git
+git clone git@github.com:MichelleW31/BGM_FE.git
 ```
 
 ```bash
-git clone https://github.com/MichelleW31/BGMBank.git
+git clone https://github.com/MichelleW31/BGM_FE.git
 ```
 
 Use the package manager [npm](https://pip.pypa.io/en/stable/) to install BGM BANK.
