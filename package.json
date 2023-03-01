@@ -1,5 +1,6 @@
 {
   "name": "bgm-frontend",
+  "homepage": "https://michellew31.github.io/Foodio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "coverage": "npm test -- --coverage --watchAll=false"
+    "coverage": "npm test -- --coverage --watchAll=false",
+    "ghdeploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverage": true,
